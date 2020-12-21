@@ -1,0 +1,24 @@
+Circuit: * Fonte Comum
+
+Direct Newton iteration for .op point succeeded.
+
+excur: v(vdd)-v(vgs)+0.8=4.55177 at 0.01
+
+
+Date: Wed Oct 18 20:18:00 2017
+Total elapsed time: 0.062 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2103
+traniter = 2099
+tranpoints = 1050
+accept = 1050
+rejected = 0
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 160 bytes object code size  0.1/0.0/[0.0]
+Matrix Compiler2: 413 bytes object code size  0.1/0.1/[0.0]
+

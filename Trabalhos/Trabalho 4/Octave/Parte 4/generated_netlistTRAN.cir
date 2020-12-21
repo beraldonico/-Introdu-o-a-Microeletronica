@@ -1,0 +1,12 @@
+* Fonte Comum
+M1 V_out N001 0 0 N_1u l=4.57168u w=22.0461u
+VDD VDD 0 5
+V_gs N001 VGS AC 1
+VGS VGS 0 1.24823
+R_d VDD V_out 73606.2
+.model NMOS NMOS
+.model PMOS PMOS
+.include cmosedu_models.txt
+.tran 20s
+.meas TRAN excur FIND V(VDD)-V(VGS)+0.8 AT 0.01s
+.end

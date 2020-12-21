@@ -1,0 +1,12 @@
+* Fonte Comum
+M1 V_out N001 0 0 N_1u l=4.57168u w=22.0461u
+VDD VDD 0 5
+V_gs N001 VGS AC 1
+VGS VGS 0 1.24823
+R_d VDD V_out 73606.2
+.model NMOS NMOS
+.model PMOS PMOS
+.include cmosedu_models.txt
+.ac dec 10 1 1meg
+.meas AC ganho FIND V(V_out) AT 1
+.end

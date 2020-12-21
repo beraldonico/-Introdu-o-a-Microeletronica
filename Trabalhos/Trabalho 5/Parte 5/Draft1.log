@@ -1,0 +1,13 @@
+Circuit: * C:\Users\PCC\Desktop\Topicos Especiais 1\Trabalho 5\Parte 5\Draft1.asc
+
+Error on line 4 : r1 vdd n002 r
+	 Unable to find definition of model "r"
+Error on line 5 : r2 vdd n003 r
+	 Unable to find definition of model "r"
+Error on line 6 : r3 vdd n004 r
+	 Unable to find definition of model "r"
+Error on line 7 : r4 vdd n005 r
+	 Unable to find definition of model "r"
+Error on line 8 : r5 vdd n006 r
+	 Unable to find definition of model "r"
+Fatal Error: Missing resistance value for "R5"

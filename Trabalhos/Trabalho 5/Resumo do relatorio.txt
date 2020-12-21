@@ -1,0 +1,31 @@
+*Parte 1
+	Vd = 1.5 V
+	Id =  3.92966e-005 A
+*Parte 2
+	Id = 3.92966e-005 A
+	Vd= 1.5 V
+	Assim como esperado os valores de tensao deram o mesmo.
+*Parte 3
+	Id = 2.98162e-006
+	Vd = 1 V
+*Parte 4
+	Tensao esperada = 1.50 V
+	Tensao obtida   = 1.11 V
+	
+*Parte 5
+	quando Vgs = Vds, Id = 39.296599µA
+	as config de M! tem que ser iguak a M2
+	
+*Parte 6
+	Original V(i_d): 1.5     Id(M1): 3.92966e-005
+	R = 100K V(r_1): 1.10988 Id(M2): 3.88985e-005
+	R = 50K  V(r_2): 2.9791  Id(M3): 4.04154e-005
+	R = 10K  V(r_3): 4.58654 Id(M4): 4.13459e-005
+	R = 10K  V(r_4): 4.95846 Id(M5): 4.15393e-005
+	R = 1M   V(r_5): 5       Id(M6): 4.15605e-005
+	- A diferença se da por causa da resistencia, utilizando a 
+	equancao de resistores podemos descobrir quando da corrente um
+	resistor segura assim avaliando a alteracao da corrente. 
+*Parte 7
+	R ? < x < ?
+	I_2
